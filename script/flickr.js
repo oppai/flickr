@@ -4,7 +4,7 @@ $(function() {
     var script = $('<script/>').attr({src: url+'&tags=' + $('#keyword').val()});
     $('head').append(script);
   });
-);
+});
 
 function drawImg(result) {
   var i = parseInt(Math.random()*result.items.length)-1;
